@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', 'Verdana';
+}
+
+.container {
+    display: flex;
+}
+
+.coluna {
+    flex: 1;
+    border: 1px solid #e0e0e0;
+}  
+
+.cinza {
+    background-color: #e0e0e0;
+}
+
+.coluna:first-child {
+    margin-right: 20px;
+} 
+
+.titulo{
+    color: #0275d8;
+    font-size: large;
+    padding: 8px;
+}
+
+/* Adicionamos um fundo preto na navbar */
+.topnav {
+    background-color: #292b2c;
+    overflow: hidden; /* O que ocorre quando o texto não cabe no conteúdo*/
+}
+
+/* Estilizando os links dentro da navbar     */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Alterando as cores na propriedade hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Adicionando cor diferente para o item ativo */
+.topnav a.ativo {
+  background-color: #0275d8;
+  color: #FFFFFF;
+}
+
+.topnav a.logo {
+    background-color: #FFFFFF;
+    color: #0275d8;
+  }
+
+/* Definindo alinhamento a direita para os elementos */
+.topnav-right {
+  float: right;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0275d8;
+    color: white;
+    text-align: center;
+  }
